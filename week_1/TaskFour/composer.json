@@ -1,0 +1,20 @@
+{
+  "name": "shakil/task-four",
+  "description": "Simple Command Line Application",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Shakil\\TaskFour\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Shakil Ahmmed",
+      "email": "shakilfci461@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/console": "^6.3"
+  }
+}
