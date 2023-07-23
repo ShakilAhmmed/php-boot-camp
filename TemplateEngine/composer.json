@@ -1,0 +1,16 @@
+{
+    "name": "shakil/template-engine",
+    "description": "A Simple Template Engine",
+    "autoload": {
+        "psr-4": {
+            "Shakil\\TemplateEngine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shakil Ahmmed",
+            "email": "shakil@skylarksoft.com"
+        }
+    ],
+    "require": {}
+}
