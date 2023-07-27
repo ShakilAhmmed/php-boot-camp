@@ -27,6 +27,6 @@ class File
             throw new FileNotFoundException('File not found' . $filePath);
         }
 
-        return file_put_contents($filePath, $contents);
+        return file_put_contents('compiled/' . $filePath, $contents);
     }
 }

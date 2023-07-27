@@ -1,9 +1,8 @@
 {
-    "name": "shakil/template-engine",
-    "description": "A Simple Template Engine",
+    "name": "shakil/day_5",
     "autoload": {
         "psr-4": {
-            "Shakil\\TemplateEngine\\": "src/"
+            "Shakil\\Day5\\": "src/"
         }
     },
     "authors": [
@@ -12,7 +11,5 @@
             "email": "shakil@skylarksoft.com"
         }
     ],
-    "require": {
-      "ext-readline": "*"
-    }
+    "require": {}
 }

@@ -29,9 +29,9 @@ class View
         }
         $this->with($data);
 
-        $content = $this->viewContent(__DIR__ . "{$this->templatePath}/views/" . $file);
+        $content = $this->viewContent("views/" . $file);
         $parsedContent = $this->template->make($this->compiler, $content);
-
+        var_dump($content);
         $compiledFileName = $file . '_view.php';
         $this->file->writeFileContents($compiledFileName, $parsedContent);
 
